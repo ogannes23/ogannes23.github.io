@@ -43,6 +43,11 @@
 		font-size: 13px;
 	}
 
+	.section_desc {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
 	.logo {
 		font-size: 35px;
 	}
@@ -207,5 +212,222 @@
 		width: 50%;
 		margin-top: 15px;
 		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	body {
+		font-size: 12px;
+	}
+
+	.defmenu {
+		display: none;
+	}
+
+	.colmenu {
+		display: block;
+	}
+
+	.section_title {
+		margin-top: 55px;
+		font-size: 36px;
+	}
+
+	.section_desc {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	
+	.slick-prev, .slick-next  {
+		width: 17px;
+		height: 28px;
+		background-size: contain;
+	}
+	
+	.slick-prev:hover, .slick-next:hover, 
+	.slick-prev:focus, .slick-next:focus {
+		background-size: contain;
+	}
+
+	.first_head {
+		width: 85%;
+	}
+	
+	.left_title {
+		font-size: 42px;
+	}
+
+	.right_title h1 {
+		font-size: 87px;
+	}
+
+	#section1 .section_title {
+		margin-top: 55px;
+	}
+
+	.service_ldesc {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.service_item {
+		margin-bottom: 20px;
+	}
+
+	.meet_team {
+		margin: 0 auto 30px auto;
+		font-size: 20px;
+		line-height: 34px;
+	}
+
+	.meet_team:after {
+		bottom: -26px;
+		margin-left: -13px;
+		border: 13px solid transparent;
+		border-top: 13px solid #a1ca6c;
+	}
+
+	.team_member {
+		margin-bottom: 20px;
+	}
+
+	.portfolio_item .image_wrap img {
+		width: 100%;
+		height: auto;
+	}
+
+	.portfolio_item {
+		overflow: hidden;
+	}
+
+	.contimg {
+		bottom: 0;
+		text-align: right;
+	}
+
+	.contimg img {
+		width: 80%;
+	}
+
+	footer {
+		height: 60px;
+	}
+
+	footer .social {
+		margin-top: 15px;
+	}
+
+	footer .social a {
+		width: 30px;
+		line-height: 30px;
+	}
+
+	footer .social a:first-child img {
+		max-width: 30%;
+	}
+
+	.contact_form {
+		margin-top: 30px;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 767px) {
+	.first_head {
+		height: 170px;
+	}
+
+	.left_title {
+		font-size: 36px;
+	}
+
+	.left_title h2 {
+		float: left;
+		width: 65%;
+		text-align: center;
+	}
+	
+	.left_title h3 {
+		float: left;
+		width: 35%;
+		text-align: left;
+	}
+
+	.right_title h1 {
+		line-height: 90px;
+	}
+	
+	.section_desc {
+		padding: 10px 20px;
+	}
+
+	.section_title {
+		font-size: 32px;
+	}
+
+	.service_ldesc {
+		padding: 0 24px;
+	}
+
+	.portfolioHead, .portControls {
+		text-align: center;
+	}
+	.portfolioHead {
+		line-height: 50px;
+	}
+
+	.portControls button {
+		width: 24%;
+	}
+
+	.portfolio_item .image_wrap {
+		height: auto;
+	}
+	
+	.portfolio_item .image_wrap .img_hov a {
+		position: absolute;
+		top: 50%;
+		margin-top: -25px;
+		left: 50%;
+		margin-left: -27px;
+	}
+
+	.contact_address {
+		text-align: center;
+	}
+
+	.botress {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.contact_form h3 {
+		text-align: center;
+	}
+
+	.contact_form input {
+		width: 100%;
+		margin-bottom: 15px;
+		float: none;
+	}
+
+	.contact_form textarea {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.left_title {
+		font-size: 22px;
+	}
+	
+	.right_title h1 {
+		font-size: 70px;
+	}
+
+	.portControls button {
+		width: 75%;
 	}
 }

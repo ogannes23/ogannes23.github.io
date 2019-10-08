@@ -13,8 +13,46 @@ body {
 	width: 100%;
 }
 
+/* ----- Collapse Menu ----- */
+
+.dn {
+	display: none;
+}
+
+.colmenu {
+	background: rgba(255,255,255,0.2);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.colmenu .hamburg {
+	text-align: left;
+}
+
+.colmenu .logo {
+	text-align: right;
+	padding-top: 0;
+	line-height: 48px;
+}
+
+#menuCol li {
+	font-size: 18px;
+	padding: 25px 0 15px 0;	
+	border-radius: 0 0 5px 5px;
+	color: #6c757d;
+	color: #224272;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#menuCol li:hover {
+	background: rgba(255,255,255,0.5);
+}
+
 div.service_item, div.team_member, .portfolio_item .image_wrap .img_hov, 
-footer .social a, .contact_form input, .contact_form textarea, .contact_form button {
+footer .social a, .contact_form input, .contact_form textarea,
+.contact_form button, .collapse_block, .hamburg .open,
+.hamburg .close, #menuCol li {
 	-moz-transition: all 0.3s ease;
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 0.3s;
@@ -143,7 +181,7 @@ li.active {
 	background: url(../img/myth.jpg) no-repeat center;
 }
 
-.section, .head-back_item1, .head-back_item2, .head-back_item3{
+.section, .head-back_item1, .head-back_item2, .head-back_item3 {
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
