@@ -1,0 +1,211 @@
+@media screen and (max-width: 1400px) {
+	.section_title {
+		font-size: 48px;
+		margin: 15px 0;
+	}
+
+	.services {
+		margin-top: 60px;
+	}
+
+	.meet_team {
+		margin: 0 auto 50px auto;
+	}
+
+	#section3 .section_title {
+		margin-top: 90px;
+	}
+
+	#section4 .section_desc {
+		margin-bottom: 50px;
+	}
+
+	footer {
+		height: 100px;
+	}
+
+	footer .social {
+		margin-top: 30px;
+	}
+
+	footer .social a {
+		width: 40px;
+		line-height: 40px;
+	}
+
+	footer .social a img {
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	body {
+		font-size: 13px;
+	}
+
+	.logo {
+		font-size: 35px;
+	}
+
+	#menu li {
+		font-size: 16px;
+		padding: 30px 25px 15px 25px;
+	}
+
+	.first_head {
+		width: 80%;
+		height: 150px;
+		padding-top: 0;
+	}
+
+	.left_title {
+		font-size: 50px;
+		line-height: 44px;
+		margin-top: 32px;
+	}
+
+	.right_title h1 {
+		font-size: 110px;
+		line-height: 150px;
+	}
+
+	.slick-prev {
+		left: 3%;
+	}
+
+	.slick-next {
+		right: 3%;
+	}
+
+	ul.slick-dots {
+		bottom: 60px;
+	}
+
+	.section_title {
+		font-size: 40px;
+	}
+
+	#section1 .section_title {
+		margin-top: 15px;
+	}
+
+	.service_ldesc {
+		font-size: 18px;
+		line-height: 35px;
+	}
+
+	.services {
+		margin-top: 45px;
+	} 
+
+	.service_item h3 {
+		font-size: 22px;
+		line-height: 32px;
+		margin-bottom: 20px;
+	}
+
+	.service_item img {
+		margin: 25px 0 15px 0;
+		max-width: 70%;
+	}
+
+	#section2 .section_desc {
+		margin-bottom: 25px;
+	}
+
+	.meet_team {
+		margin: 0 auto 35px auto;
+		font-size: 24px;
+		line-height: 45px;
+	}
+
+	.team_member {
+		padding: 25px 20px 20px 20px;
+	}
+
+	.team_member img {
+		max-width: 90%;
+	}
+
+	.team_member h3 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	.team_member p {
+		line-height: 40px;
+	}
+
+	.team_member .social a {
+		margin-right: 5%;
+	}
+
+	#section3 .section_title {
+		margin-top: 70px;
+	}
+	
+	.portfolioHead {
+		line-height: 70px;
+		margin: 35px 0;
+	}
+
+	.portfolio_item {
+		width: 100%;
+		height: auto;
+	}
+
+	.portfolio_item .portfDesc {
+		line-height: 40px; 
+	}
+
+	.portfolio_item .portfDesc::after {
+		top: -28px;
+		margin-left: -14px;
+		border: 14px solid transparent;
+		border-bottom: 14px solid #eee;
+	}
+
+	#section4 .section_title {
+		margin-top: 50px;
+	}
+
+	#section4 .section_desc {
+		margin-bottom: 30px;
+	}
+
+	.contact_form input {
+		width: 48%;
+	}
+
+	.contact_address h3, .contact_form h3 {
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+
+	.contact_address h4 {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+	.botress {
+		margin-top: 50px;
+	}
+
+	.contimg {
+		bottom: -41px;
+	}
+
+	.contact_form textarea {
+		max-height: 154px;
+		min-height: 154px;
+		margin-top: 15px;
+	}
+
+	.contact_form button {
+		height: 45px;
+		line-height: 45px;
+		width: 50%;
+		margin-top: 15px;
+		font-size: 23px;
+	}
+}
